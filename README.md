@@ -10,4 +10,6 @@ yazmanız yeterli olacaktır. Sonra ise http://127.0.0.1:8000/docs adresinden AP
 
 Bunlarla uğraşamam diyorsanız Docker image'ına [buradan](https://hub.docker.com/repository/docker/demegire/sumooo) erişebilirsiniz. Bu image'ı indirip kendi Docker'ınızda çalıştırıp localhost/docs adresinde API'ya erişebilirsiniz. 
 
+Dockerfile'ı kullanarak Docker image oluşturmanız da mümkün.
+
 Detaylı bilgi için lütfen [raporu](https://colab.research.google.com/drive/1J-q5sP8CQHIBlJan21gOrKw9NihbGS85?usp=sharing) okuyun.
