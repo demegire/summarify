@@ -4,7 +4,7 @@ Banka şikayet metni sınıflandırma için fine-tune'lanmış BERT.
 
 Çalıştırmak için lütfen [buradan](https://drive.google.com/file/d/1y_Ym4tij9C_esgbW8XzzA6FrcPYNd_Mh/view?usp=sharing) state.pt dosyasını indirip gördüğünüz bu dosyalar ile aynı directory'e koyun ve app.py'yi bir yerel sunucuda host'layın. Örneğin uvicorn kullanıyorsanız dosyaların bulunduğu directory'de cmd'ye 
 ```
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 yazmanız yeterli olacaktır. Sonra ise http://127.0.0.1:8000/docs adresinden API'yı deneyebilirsiniz. Bunun için Python 3.6.7'ye ve requirements.txt'deki kütüphanelere sahip olmanız gerekmektedir.
 
